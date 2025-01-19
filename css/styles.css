@@ -303,12 +303,12 @@ nav {
   padding: 100px 0;
 }
 
-.footer-cont {
+/* .footer-cont {
   display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
   flex-direction: column;
-}
+} */
 
 .footer-link {
   display: inline-block;
