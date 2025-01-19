@@ -63,7 +63,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
 }
 nav {
   align-items: center;
@@ -90,6 +89,7 @@ nav {
   display: flex;
   padding-left: 76px;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .address-menu-list {
