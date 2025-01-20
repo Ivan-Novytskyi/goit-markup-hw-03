@@ -54,7 +54,6 @@ img {
 }
 
 .header {
-  padding: 24px 0 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -86,7 +85,6 @@ nav {
 
 .header-menu-list {
   display: flex;
-  padding-left: 76px;
   gap: 40px;
 }
 
@@ -102,6 +100,7 @@ nav {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .header-menu-link:hover,
@@ -118,6 +117,8 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 
 .address-menu-item:hover,
@@ -133,8 +134,6 @@ nav {
 }
 
 .hero-wrapper {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -195,8 +194,6 @@ nav {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
-  margin-top: 32px;
 }
 
 .features-item-text {
@@ -226,12 +223,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-top: 72px;
 }
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  border: 1px;
+
   border-radius: 0 0 4px 4px;
 }
 .team-image {
@@ -241,13 +237,16 @@ nav {
   padding: 32px 0;
 }
 
+.team-subt {
+  text-align: center;
+}
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 
 /* /-------portfolio---------/ */
@@ -269,12 +268,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-top: 72px;
 }
 .portfolio-item {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
 .portfolio-image {
@@ -291,9 +286,6 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 8px;
-  text-align: center;
-  padding-bottom: 32px;
 }
 
 /* /-------footer---------/ */
@@ -337,6 +329,5 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-right: 864px;
-  margin-top: 16px;
+  max-width: 264px;
 }
